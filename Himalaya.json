@@ -1,0 +1,343 @@
+{
+    "productList": [
+        {
+            "productId": 1,
+            "productName": "Apple",
+            "productDescription": "Apple",
+            "Quantity": 50,
+            "price": 100,
+            "category": 1,
+            "rating": 4,
+            "active": true,
+            "trendingId": 1
+        }
+    ],
+    "productMaster": [
+        {
+            "productId": 1,
+            "productName": "Apple",
+            "productDescription": "Ooty Apple",
+            "productCode": "app001",
+            "fullDescription": "",
+            "specification": "",
+            "story": "",
+            "packQuantity": 10,
+            "Quantity": 100,
+            "price": 200,
+            "categrory": 1,
+            "rating": 1,
+            "active": true,
+            "trending": "1-Sale, 2,-New, 3-Trending",
+            "userBuyCount": 50,
+            "imageName": "apple.jpg",
+            "imagePath": "url",
+            "return": "1 - Non-returnable, 0 - Returnable",
+            "tags": "1-Thottam Siva, 2-Organic Seed, 3-Native Seed, 4-Hybrid Seed",
+            "cteated": "date",
+            "modified": "date",
+            "stock": "1- In stock, 0 - Out of stock",
+            "deleveryDate": 5,
+            "offer": "50%"
+        }
+    ],
+    "productImage": [
+        {
+            "imageId": 1,
+            "productId": 1,
+            "imageUrl": "image"
+        },
+        {
+            "imageId": 2,
+            "productId": 1,
+            "imageUrl": "image1"
+        }
+    ],
+    "userWishlist": [
+        {
+            "id": 1,
+            "userId": 10,
+            "productId": 1
+        }
+    ],
+    "user": [
+        {
+            "userId": 1,
+            "userName": "Jerome",
+            "emailId": "jeromec252@gmail.com",
+            "DisplayName": "Jerome",
+            "gender": 1,
+            "doorNo": "No 1133",
+            "street": "Church Street",
+            "city": "Thiruvannanamalai",
+            "place": "Avoor",
+            "pinCode": "606755",
+            "phoneNo": "9025020273",
+            "alternativeNo": "9025020273",
+            "created": "date",
+            "modified": "date",
+            "lastLogin": "date",
+            "profile": "image",
+            "active": true,
+            "coupponId": 1,
+            "status": 1
+        }
+    ],
+    "userRole": [
+        {
+            "roleId": 1,
+            "role": "System Admin",
+            "acitive": true
+        },
+        {
+            "roleId": 2,
+            "role": "Tenant Admin",
+            "acitive": true
+        },
+        {
+            "roleId": 3,
+            "role": "Product Manager",
+            "acitive": true
+        },
+        {
+            "roleId": 4,
+            "role": "User",
+            "acitive": true
+        }
+    ],
+    "userStatus": [
+        {
+            "id": 1,
+            "statusName": "Silver",
+            "active": true
+        },
+        {
+            "id": 2,
+            "statusName": "Gold",
+            "active": true
+        },
+        {
+            "id": 3,
+            "statusName": "Platinam",
+            "active": true
+        }
+    ],
+    "productRating": [
+        {
+            "ratingId": 1,
+            "userId": 1,
+            "rating": 4,
+            "comment": "nice product, worth for it"
+        },
+        {
+            "ratingId": 2,
+            "userId": 2,
+            "rating": 3,
+            "comment": ""
+        }
+    ],
+    "categoryMaster": [
+        {
+            "categoryId": 1,
+            "categoryName": "Brinjal",
+            "mainCategory": 1,
+            "active": true
+        },
+        {
+            "categoryId": 2,
+            "categoryName": "Chilli",
+            "mainCategory": 1,
+            "active": true
+        },
+        {
+            "categoryId": 3,
+            "categoryName": "Green",
+            "mainCategory": 1,
+            "active": true
+        },
+        {
+            "categoryId": 4,
+            "categoryName": "Herbs",
+            "mainCategory": 1,
+            "active": true
+        },
+        {
+            "categoryId": 5,
+            "categoryName": "Tomatoes",
+            "mainCategory": 1,
+            "active": true
+        },
+        {
+            "categoryId": 6,
+            "categoryName": "Gourds",
+            "mainCategory": 1,
+            "active": true
+        },
+        {
+            "categoryId": 7,
+            "categoryName": "Flowers",
+            "mainCategory": 1,
+            "active": true
+        },
+        {
+            "categoryId": 8,
+            "categoryName": "Fruits",
+            "mainCategory": 1,
+            "active": true
+        },
+        {
+            "categoryId": 9,
+            "categoryName": "Green",
+            "mainCategory": 1,
+            "active": true
+        },
+        {
+            "categoryId": 10,
+            "categoryName": "Radish",
+            "mainCategory": 1,
+            "active": true
+        },
+        {
+            "categoryId": 11,
+            "categoryName": "Beans",
+            "mainCategory": 1,
+            "active": true
+        },
+        {
+            "categoryId": 12,
+            "categoryName": "Spinach",
+            "mainCategory": 1,
+            "active": true
+        },
+        {
+            "categoryId": 13,
+            "categoryName": "Radish",
+            "mainCategory": 1,
+            "active": true
+        }
+    ],
+    "mainCategroy": [
+        {
+            "mainCategoryId": 1,
+            "categoryName": "Seed",
+            "active": true,
+            "image": ""
+        },
+        {
+            "mainCategoryId": 2,
+            "categoryName": "Tubers",
+            "active": true,
+            "image": ""
+        },
+        {
+            "mainCategoryId": 3,
+            "categoryName": "Plants",
+            "active": true,
+            "image": ""
+        },
+        {
+            "mainCategoryId": 4,
+            "categoryName": "Others",
+            "active": true,
+            "image": ""
+        }
+    ],
+    "orderGuide": [
+        {
+            "orderId": 1,
+            "orderReference": "HIM001",
+            "userId": 1,
+            "quantity": 20,
+            "price": 400,
+            "total": 450,
+            "delevery": 50,
+            "createdOn": "date",
+            "status": 1,
+            "products": [
+                {
+                    "productId": 1,
+                    "quantity": 3,
+                    "price":100
+                },
+                {
+                    "productId": 2,
+                    "quantity": 4,
+                    "price":150
+                }
+            ]
+        }
+    ],
+    "orderStatus": [
+        {
+            "orderStatusId": 1,
+            "status": "Ready for shipping",
+            "active": true
+        },
+        {
+            "orderStatusId": 2,
+            "status": "Shipped",
+            "active": true
+        },
+        {
+            "orderStatusId": 3,
+            "status": "Transisting",
+            "active": true
+        },
+        {
+            "orderStatusId": 4,
+            "status": "Delivered",
+            "active": true
+        },
+        {
+            "orderStatusId": 5,
+            "status": "Order Complete",
+            "active": true
+        }
+    ],
+    "productUserCart": [
+        {
+            "cartId": 1,
+            "userId": 1,
+            "products": [
+                {
+                    "productId": 1,
+                    "quantity": 3
+                },
+                {
+                    "productId": 2,
+                    "quantity": 4
+                }
+            ]
+        }
+    ],
+    "productFeedback": [
+        {
+            "id": 1,
+            "productId": 1,
+            "questionAns": "",
+            "review": "",
+            "userId": 1
+        }
+    ],
+    "couponMaster": [
+        {
+            "coupponId": 1,
+            "couppon": "summar",
+            "code": "SUM50",
+            "amount": 50,
+            "acitive": true
+        },
+        {
+            "coupponId": 2,
+            "couppon": "New user",
+            "code": "NEW100",
+            "amount": 100,
+            "acitive": true
+        }
+    ],
+    "userNotificationMaster": [
+        {
+            "id": 1,
+            "notificationName": "name"
+        }
+    ]
+}

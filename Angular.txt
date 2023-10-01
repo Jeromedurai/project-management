@@ -1,0 +1,46 @@
+Angular Installation:
+----------------------
+
+
+
+1. Install Node.js -> https://nodejs.org/en/ No need to install Windows PowerShell
+2. Install -> npm install -g @angular/cli@8.3.15 (run as user not adminstrator)
+-- 2. Install -> npm i @angular/cli@8.3.15
+3. Install Visual Studio Code
+4. ng --version
+
+npm install -g @angular/cli@8.3.26
+
+
+npm uninstall -g angular-cli to uninstall the angular/cli.
+npm cache clean
+npm cache verify
+npm cache verify --force
+C:\Users\"Your_syste_User_name"\AppData\Roaming\npm
+C:\Users\"Your_syste_User_name"\AppData\Roaming\npm-cache
+
+
+
+If u rename Projectname:
+-------------------------
+1. Delete "node_modules" folder and "package-lock.json" file. Clear tempdata folder.
+2. Run "npm install" command
+3. Change project name in angular.json
+https://stackoverflow.com/questions/57585781/angular-ng-serve-command-throws-error-an-unhandled-exception-occurred-project - 9th point
+
+
+
+Run:
+-----
+1. ctrl + ~
+2. run -> ng serve -o
+3. stop -> ctrl + c
+4. build -> ng build --configuration=dev
+5. to run diffrent port -> ng serve -o --port 4500
+
+ng build --prod
+
+npm install-new branch
+code . - code open
+
+ng g c main

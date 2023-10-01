@@ -1,0 +1,142 @@
+Invoice Flow:
+	Upload invoice
+	Image converter 
+	Import service
+	Export Service
+	Abby completion
+		Vendor completion
+		Secoundary Vendor
+		
+Invoice Process:
+DEO - Data Entry Operator:
+	Exception
+	Duplicate Product
+		-- when  come to the queue
+		-- what thery are do the product
+		-- what is Source 
+		-- what is Target
+		-- how do we merge the product
+	
+	Internal Procuct verification:
+		-- when it is come 
+		-- when hightlitted as red font
+		-- what they doing in product config
+	
+	Tenant Product verification:
+		-- when it is come 
+		-- when hightlitted as red font
+		-- what they doing in product config
+
+	Vendor Merge:
+		-- when doing the vendor merge
+		-- after vendor merge - source vendor as target vendor
+			-- Table level changes
+	
+	Merge Product:
+		-- Why merge the product
+		-- how we can merge the product
+			-- Table level changes
+
+	Tenant Notes:
+		-- Here we can add tenant level notes
+		-- vendor level notes / tenant vendor or global vendor
+		-- purpose add notes / where we can see the notes
+	 
+	 Global Product Review:
+
+	 Global Vendor Mapping:
+	 	-- How relatted to the EDI
+		-- why doing this Mapping
+	
+	Map location:
+		-- What will do in the map location
+		-- we need to enable this feature
+
+Tenant Admin:
+	COGS:
+		-- what is cogs group
+		-- how related to the invoice
+	
+	Map Invoice Item:
+		-- what is invoice item  - line item?
+		-- why mapping invoice item to the category 
+		-- where it is using to the mapping - extract?or?
+	
+	Approval:
+		-- approval we where crating the rule the invice go to the queue
+		-- we need to enable this for tenant.
+		-- here we where validating the invoice ex. amount > 0 ext.
+
+	Cost Center:
+		-- what is cost center
+		-- we using cost centr name in extract
+
+	Vendor Hub:
+		-- This is for tenant vendor configuration
+		-- Here we set payment term and update vendor code
+	
+	Product Catalog:
+
+
+	Extract:
+		-- Try to know how extract the invoice to the all the mapped with info
+	
+	GlCode:
+		-- 
+	
+	Cogs Group:
+		-- 
+	
+	Categories:
+		-- 
+	
+	
+
+	Invoice Exception 
+		The product description is empty
+		Invoice amount mismatch detected
+		Purchase price exceeds contracted price
+		Price variance detected in one or more line items in the invoice
+		Summary Detail-Conflict
+		Vendor not assigned
+		Possible Duplicate
+		Duplicate invoice found
+		Reprocess due to preference change
+		Vendor notes exists
+		Payment terms not assigned
+		Payment method mandatory
+		Vendor not available
+		Invoice Review
+		PO# not available
+		Credit Memo Exception
+		Closed accounting cycle
+		Waiting for Xtrachef
+		Waiting for tenant action
+		Vendor payment term not assigned
+		Same product detected
+		A new or unassigned product found
+		Missing vendor code
+		Invalid invoice number
+		Zero dollar invoice
+		Summary Invoice
+		Requires Custom Item Handling
+		Request vendor change
+		Manual Exception
+
+	Invoice Calculation
+		GLs - 
+		Category - 
+		Fright Charges -
+		Discount - 
+		Tax -
+		Other 
+		Fuel Charges-
+		cogs-
+
+Statment:
+	Status
+	Upload statement
+	DEO - Page Seperation completion
+	EDO - Statement added invoice - like date / doc no (invoice no) / amount  - each doc number as invoiced
+	Tenant - Existing invoice map above mentioned column then status is matched else un-matched - (this process is recuncile)
+	

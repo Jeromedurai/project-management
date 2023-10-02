@@ -219,24 +219,28 @@
         {
             "mainCategoryId": 1,
             "categoryName": "Seed",
+            "orderBy":1,
             "active": true,
             "image": ""
         },
         {
             "mainCategoryId": 2,
             "categoryName": "Tubers",
+            "orderBy":1,
             "active": true,
             "image": ""
         },
         {
             "mainCategoryId": 3,
             "categoryName": "Plants",
+            "orderBy":1,
             "active": true,
             "image": ""
         },
         {
             "mainCategoryId": 4,
             "categoryName": "Others",
+            "orderBy":1,
             "active": true,
             "image": ""
         }

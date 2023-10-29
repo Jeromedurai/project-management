@@ -22,7 +22,7 @@
             "specification": "",
             "story": "",
             "packQuantity": 10,
-            "Quantity": 100,
+            "quantity": 100,
             "price": 200,
             "categrory": 1,
             "rating": 1,
@@ -33,7 +33,7 @@
             "imagePath": "url",
             "return": "1 - Non-returnable, 0 - Returnable",
             "tags": "1-Thottam Siva, 2-Organic Seed, 3-Native Seed, 4-Hybrid Seed",
-            "cteated": "date",
+            "created": "date",
             "modified": "date",
             "stock": "1- In stock, 0 - Out of stock",
             "deleveryDate": 5,
@@ -219,28 +219,28 @@
         {
             "mainCategoryId": 1,
             "categoryName": "Seed",
-            "orderBy":1,
+            "orderBy": 1,
             "active": true,
             "image": ""
         },
         {
             "mainCategoryId": 2,
             "categoryName": "Tubers",
-            "orderBy":1,
+            "orderBy": 1,
             "active": true,
             "image": ""
         },
         {
             "mainCategoryId": 3,
             "categoryName": "Plants",
-            "orderBy":1,
+            "orderBy": 1,
             "active": true,
             "image": ""
         },
         {
             "mainCategoryId": 4,
             "categoryName": "Others",
-            "orderBy":1,
+            "orderBy": 1,
             "active": true,
             "image": ""
         }
@@ -260,12 +260,12 @@
                 {
                     "productId": 1,
                     "quantity": 3,
-                    "price":100
+                    "price": 100
                 },
                 {
                     "productId": 2,
                     "quantity": 4,
-                    "price":150
+                    "price": 150
                 }
             ]
         }
@@ -324,14 +324,14 @@
     ],
     "couponMaster": [
         {
-            "coupponId": 1,
+            "couponId": 1,
             "couppon": "summar",
             "code": "SUM50",
             "amount": 50,
             "acitive": true
         },
         {
-            "coupponId": 2,
+            "couponId": 2,
             "couppon": "New user",
             "code": "NEW100",
             "amount": 100,
@@ -341,7 +341,36 @@
     "userNotificationMaster": [
         {
             "id": 1,
-            "notificationName": "name"
+            "notificationName": "user status chaange like silver / gold",
+            "description": "user status chaange like silver / gold"
+        },
+        {
+            "id": 2,
+            "notificationName": "user whish list notification",
+            "description": "user whish list notification"
+        },
+        {
+            "id": 3,
+            "notificationName": "coupon add and expire notification",
+            "description": "coupon add and expire notification"
+        },
+        {
+            "id": 4,
+            "notificationName": "offer email notification",
+            "description": "offer email notification"
+        },
+        {
+            "id": 5,
+            "notificationName": "remove product in whish list / card",
+            "description": "remove product in whish list / card"
+        }
+    ],
+    "emailSubscription": [
+        {
+            "id": 1,
+            "email": "",
+            "description": "",
+            "active": true
         }
     ]
 }
